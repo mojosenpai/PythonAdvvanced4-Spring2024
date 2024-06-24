@@ -25,10 +25,10 @@ async function getData() {
 function filterData(searchTerm) {
     itemList.forEach(item => {
         if(item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
-            // TODO
+            item.classList.remove('hide')
         }
         else {
-            // TODO
+            item.classList.add('hide')
         }
     })
 }

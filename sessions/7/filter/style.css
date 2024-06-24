@@ -51,3 +51,7 @@ body {
     height: 600px;
     overflow-y: auto;
 }
+
+.user-list li.hide {
+    display: none;
+}
